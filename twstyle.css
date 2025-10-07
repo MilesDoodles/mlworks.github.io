@@ -1,0 +1,89 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+@font-face {
+  font-family: "Curlz MT";
+  src: url("/fonts/CURLZ___.TTF");
+}
+.BigTitle {
+	font-size: xx-large;
+	font-family: "Curlz MT";
+	color: #B42A9C;
+	font-weight: bolder;
+}
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial;
+  text-align: center;
+  background-image: url('/webs/twins/bg_pattern.png'); /* Replace with your image path */
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+table, th, td {
+	border: 4px none black;
+}
+/*.testimg {
+	width: 90%;
+	height: 90%;
+}*/
+.videodiv {
+  width: 640px; 
+  height: 360px; 
+  position: absolute; 
+  top: 0; right: 0;
+  bottom: 0; left: 0;
+  margin: auto; /* make em equal */
+}
+.newbody {
+  background-color: #2F2B46;
+  color: white;
+  font-family: Arial;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.vidtitle{
+  font-weight:bold;
+  font-size:20px;
+}
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+.logo {
+  height: auto;
+  width: auto;
+}
+ul {
+	text-align:center;
+	list-style-position:inside;
+	display:inline-block;
+	margin: auto;
+}
+p3 {
+  font-weight:bold;
+}
+.twinsmenu {
+	background-color: ;
+}
+.chars {
+	height: 300pt;
+	width: auto;
+}
