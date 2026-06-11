@@ -2,15 +2,7 @@
    HTML content. To learn how to do something, just try searching Google for questions like
    "how to change link color." */
 
-body {
-  background-color: black;
-  color: white;
-  font-family: Arial;
-  text-align: center;
-  background-image: url('/bg_pattern.png'); /* Replace with your image path */
-  background-repeat: repeat;
-  background-attachment: fixed;
-}
+body  { color: white; font-family: Arial; background: black url(bg_pattern.png) repeat fixed; text-align: center }
 table, th, td {
   border: 4px solid black;
 }
